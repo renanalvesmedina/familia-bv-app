@@ -58,7 +58,7 @@ function App() {
     setMessage('');
 
     try {
-      const response = await fetch('http://n8n-as40g84cgg800gc00wgs8gso.20.33.57.46.sslip.io/webhook/boas-vindas', {
+      const response = await fetch('https://53825527444b.ngrok-free.app/webhook/boas-vindas', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
