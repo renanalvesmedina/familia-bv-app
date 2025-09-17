@@ -182,7 +182,7 @@ function App() {
               </div>
               <div>
                 <input
-                  type="text"
+                  type="number"
                   name="Numero"
                   value={formData.Numero}
                   onChange={handleInputChange}
@@ -204,7 +204,7 @@ function App() {
             />
 
             <input
-              type="text"
+              type="number"
               name="cep"
               value={formData.cep}
               onChange={handleInputChange}
@@ -242,7 +242,7 @@ function App() {
               Data de Nascimento
             </label>
             <input
-              type="text"
+              type="number"
               name="DataNascimento"
               value={formData.DataNascimento}
               onChange={handleInputChange}
