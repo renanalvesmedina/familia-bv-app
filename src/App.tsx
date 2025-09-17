@@ -242,7 +242,7 @@ function App() {
               Data de Nascimento
             </label>
             <input
-              type="number"
+              type="text"
               name="DataNascimento"
               value={formData.DataNascimento}
               onChange={handleInputChange}
