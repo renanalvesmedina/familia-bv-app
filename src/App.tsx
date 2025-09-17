@@ -58,7 +58,7 @@ function App() {
     setMessage('');
 
     try {
-      const response = await fetch('https://53825527444b.ngrok-free.app/webhook/boas-vindas', {
+      const response = await fetch('https://automacao.igrejafamilia.net.br/webhook/boas-vindas', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
